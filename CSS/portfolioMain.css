@@ -1,0 +1,195 @@
+#topimage{
+	vertical-align: center;
+}
+
+body {
+  
+  font-family: Calluna, Arial, sans-serif;
+  width: 100%
+}
+
+.bg-body{
+	background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(http://4hdwallpapers.com/wp-content/uploads/2013/03/Cherry-Blossom-Spring-Desktop.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed !important;
+	background-size: 100% !important;
+	background-position: center top !important;
+	padding: 4rem;
+	padding-top: 45%;
+		  color: #fff;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.bottom-left {
+    position: absolute;
+    top:580px;
+    bottom: 8px;
+    left: 8px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 88px;
+    font-weight: bold;
+    text-shadow: 2px 2px #fff;
+    color: #b79541;
+    font-family: Georgia, serif;
+}
+.title{
+	font-size: 28px;
+	font-family: Georgia, serif;
+	font-style: italic;
+	font-weight: bold;
+	color: #b79541;
+	text-shadow: 1px 1px #fff;
+}
+
+
+
+p{
+  color:#525252;
+  font-size:12px;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:10px;
+	width:100%;
+	background:#f7f9f2;
+	height:25px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	width:110px;
+	font-weight:bold;
+	font-size:12px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:25px;
+	line-height:25px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:25px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:25px;
+	line-height:25px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+
+.experience{
+	font:  bold 50px Georgia, serif;
+	color: #f6318b;
+	margin:100px 5px 50px 20px;
+
+}
+.gallerytitle{
+	font:  bold 50px Georgia, serif;
+	color: #36d4c4;
+	margin:200px 5px 50px 20px;
+
+}
+
+.contacttitle{
+	font:  bold 50px Georgia, serif;
+	color: #ffb74d;
+	margin:200px 5px 50px 20px;
+
+}
+
+div.gallery {
+    margin: 15px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    padding: 3px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
